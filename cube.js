@@ -9,8 +9,7 @@ document.getElementById('canvas-container').appendChild(renderer.domElement);
 
 const geometry = new THREE.OctahedronGeometry( 1, 0 );
 const material = new THREE.LineBasicMaterial( {
-	color: 0xffffff,
-	
+	color: 0xffffff,	
 } );
 const cube = new THREE.LineSegments( new THREE.EdgesGeometry(geometry),
  material );
